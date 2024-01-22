@@ -40,18 +40,11 @@ h1{
 
 p{  
     /* background-color: lightpink; */
-    margin-top: 15px;
-    margin-bottom: 15px;
     text-align: center;
 }
 
 
-
-
-
-
 a{ 
-    display: inline-block;
     background-color: rgb(155, 142, 170) ;
     margin-left: 35%;
     border-radius: 10px;
@@ -118,9 +111,6 @@ ul{
     
 }
 div{
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 100px;
     border: 3px rgb(100, 27, 40) solid;
     background-color: rgb(97, 86, 102);
 }
@@ -133,15 +123,16 @@ span{
 
 #title{
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 50%;
-    border: 50px 50px 50px 50px;
+    margin-left: 44.3%;
+    padding: 2%;
+    font-size: 30px;
 }
 
 #lists{
-    display: inline-block;
+    display: inline-flex;
     margin-top: 20px;
-    margin-right: 100px;
+    margin-right: 150px;
+    padding: 10px 20px 10px 40px;
     border: 3px rgb(100, 27, 40) solid;
     background-color: rgb(97, 86, 102);  
 }
